@@ -1,0 +1,12 @@
+# 忽略根目录下的所有文件和文件夹
+src/
+public/
+node_modules/
+.vscode/
+.astro/
+package-lock.json
+astro.config.mjs
+cmd.txt
+package-lock.json
+package.json
+tsconfig.json

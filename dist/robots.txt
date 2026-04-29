@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /go/
+
+# 这里的 URL 需要根据你的最终域名修改
+Sitemap: https://xianggangvps.github.io/sitemap-index.xml
