@@ -1,43 +1,21 @@
-# Astro Starter Kit: Minimal
+# 香港 VPS 评测网
 
-```sh
-npm create astro@latest -- --template minimal
-```
+这是 **[香港 VPS 评测网](https://xianggangvps.github.io)** 的内容存储库。我在这里记录所有关于香港服务器线路的深度实测数据，并同步更新至线上站点。
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 我建立这个项目的目标
+目前市场上关于香港服务器的推荐信息非常杂乱，许多过时的测试报告依然在误导初学者。
 
-## 🚀 Project Structure
+我希望通过这个开源项目，建立一个透明且真实的香港 **VPS 数据库**。我会定期测试不同服务商的线路质量，重点关注中国内地访问的延迟与稳定性。
 
-Inside of your Astro project, you'll see the following folders and files:
+## 测评核心关注点
+我不会只看商家的宣传文案。在每一篇评测文章中，我都会亲自使用工具追踪回程路由，识别真正的 CN2 GIA 或 AS9929 线路。我会记录在晚高峰期间的**丢包率表现**，以及带宽在高负荷下的真实吞吐量。
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+这些数据不经过任何修饰，直接反映服务器的底层网络质量。
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 获取最新的评测报告
+由于 GitHub 的内容更新主要面向源码维护，如果你想获得更好的阅读体验，或者查看最新的排行榜单，请直接访问本站的正式域名。
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+点击访问：**[xianggangvps.github.io](https://xianggangvps.github.io)**
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 参与贡献与反馈
+如果你发现某家服务商的线路发生了变化，或者希望我测试特定的 VPS 产品，欢迎通过项目的 **Issues** 提交建议。我非常乐意根据大家的反馈来补充测评样本。
